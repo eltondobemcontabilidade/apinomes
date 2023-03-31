@@ -14,9 +14,10 @@ public class NomeController {
 	@GetMapping(value= "nomes")
 	public List<String> getNomes() {
 		var lista =  new ArrayList<String>();
-		lista.add("Elton");
-		lista.add("Alessandra");
-		lista.add("Beatriz");			
+		lista.add("Creuza Goncalves");
+		lista.add("Elton Goncalves");
+		lista.add("Alessandra Goncalves");
+		lista.add("Beatriz Goncalves");			
 		return lista;
 	}
 
