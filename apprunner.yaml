@@ -1,4 +1,0 @@
-version: 1.0
-runtime: corretto11
-run:                              
-  command: docker-compose up
