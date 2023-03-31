@@ -15,6 +15,7 @@ public class NomeController {
 	public List<String> getNomes() {
 		var lista =  new ArrayList<String>();
 		lista.add("Creuza Goncalves");
+		lista.add("Edkeyze Goncalves");
 		lista.add("Elton Goncalves");
 		lista.add("Alessandra Goncalves");
 		lista.add("Beatriz Goncalves");			
