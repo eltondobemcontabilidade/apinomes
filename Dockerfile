@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/api-0.0.1-SNAPSHOT.jar api.jar 
-ENTRYPOINT ["java","-jar","/api.jar"]
+ADD target/nomes-service.jar nomes-service.jar 
+ENTRYPOINT ["java","-jar","/nomes-service.jar"]
