@@ -18,7 +18,8 @@ public class NomeController {
 		lista.add("Edkeyze Goncalves");
 		lista.add("Elton Goncalves");
 		lista.add("Alessandra Goncalves");
-		lista.add("Beatriz Goncalves");			
+		lista.add("Beatriz Goncalves");		
+		lista.add("Maria Andrade Goncalves");			
 		return lista;
 	}
 
