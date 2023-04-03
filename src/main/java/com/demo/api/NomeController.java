@@ -19,7 +19,8 @@ public class NomeController {
 		lista.add("Elton Goncalves");
 		lista.add("Alessandra Goncalves");
 		lista.add("Beatriz Goncalves");		
-		lista.add("Maria Andrade Goncalves");			
+		lista.add("Maria Andrade Goncalves");	
+		lista.add("Mais um nome Goncalves");			
 		return lista;
 	}
 
