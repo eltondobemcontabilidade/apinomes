@@ -14,7 +14,15 @@ public class NomeController {
 	@GetMapping(value= "nomes")
 	public List<String> getNomes() {
 		var lista =  new ArrayList<String>();
-		lista.add("A");				
+		lista.add("Edevaldo Pinheiro");
+		lista.add("Edevaldo Pinheiro");
+		lista.add("Creuza Goncalves");
+		lista.add("Edkeyze Goncalves");
+		lista.add("Elton Goncalves");
+		lista.add("Alessandra Goncalves");
+		lista.add("Beatriz Goncalves");		
+		lista.add("Maria Andrade Goncalves");	
+		lista.add("Mais um nome Goncalves");			
 		return lista;
 	}
 
