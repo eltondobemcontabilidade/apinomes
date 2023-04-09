@@ -9,18 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class NomeController {
-	
-	
 	@GetMapping(value= "nomes")
 	public List<String> getNomes() {
 		var lista =  new ArrayList<String>();
-		lista.add("Elton Goncalves");
-		lista.add("Creuza Goncalves");
-		lista.add("Edkeyze Goncalves");
-		lista.add("Alessandra Goncalves");
-		lista.add("Beatriz Goncalves");		
-		lista.add("Edevaldo Pinheiro");		
+		lista.add("Elton Jhon Dias Goncalves");
+		lista.add("Alessandra Andradde da Costa Goncalves");
+		lista.add("Beatriz da Costa Goncalves");
 		return lista;
 	}
-
 }
